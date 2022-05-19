@@ -12,6 +12,12 @@ public class MainClass {
 		int i=0;
 		AdditionClass add=new AdditionClass();
 		i=add.add();
+
+		System.out.println("Master Commit");
+		System.out.println("Subs Commit");
+
+		SubstractionClass subs = new SubstractionClass();
+		i = subs.subs();
 		System.out.println(i);
 	}
 
