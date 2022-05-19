@@ -3,7 +3,6 @@ package TestGitWithJenkin;
 public class MainClass {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		// TODO Auto-generated method stub
 		
@@ -18,6 +17,11 @@ public class MainClass {
 
 		SubstractionClass subs = new SubstractionClass();
 		i = subs.subs();
+		System.out.println("Master Commit");
+		System.out.println("Mult Commit");
+		
+		MultiplicationClass mult = new MultiplicationClass();
+		i = mult.mult();
 		System.out.println(i);
 	}
 
